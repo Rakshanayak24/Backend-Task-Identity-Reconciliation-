@@ -96,8 +96,19 @@ curl -X POST http://localhost:3000/identify \
 -d "{\"email\":\"test@mail.com\",\"phoneNumber\":\"123456\"}"
 ☁️ Deployment
 ```
-This project can be easily deployed on:
-Render
-Railway
-Expose the /identify endpoint publicly after deployment.
+
+## Test Live API
+
+You can test the deployed API directly:
+
+**Endpoint:**  
+`POST https://bitespeed-api-3e7h.onrender.com/identify`
+
+**Example JSON body:**
+
+```json
+{
+  "email": "george@hillvalley.edu",
+  "phoneNumber": "717171"
+}
 
